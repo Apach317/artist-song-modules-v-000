@@ -11,7 +11,7 @@ module Findable
 end
 
 class Artist
-  extend Findable::ClassMethods
+  include Findable::ClassMethods
 end
 
 class Song
