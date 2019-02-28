@@ -15,5 +15,5 @@ class Artist
 end
 
 class Song
-  extend Findable::ClassMethods
+  include Findable::ClassMethods
 end
