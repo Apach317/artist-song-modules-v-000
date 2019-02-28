@@ -7,9 +7,9 @@ module Paramable
 end
 
 class Artist
-  extend Paramable::ClassMethods
+  include Paramable::ClassMethods
 end
 
 class Song
-  extend Paramable::ClassMethods
+  include Paramable::ClassMethods
 end
