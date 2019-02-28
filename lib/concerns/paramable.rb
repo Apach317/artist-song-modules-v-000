@@ -5,3 +5,11 @@ module Paramable
     end
   end
 end
+
+class Artist
+  extend Paramable::ClassMethods
+end
+
+class Song
+  extend Paramable::ClassMethods
+end
