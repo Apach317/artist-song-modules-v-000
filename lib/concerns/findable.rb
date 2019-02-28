@@ -9,3 +9,11 @@ module Findable
   end
 
 end
+
+class Artist
+  extend Findable::ClassMethods
+end
+
+class Song
+  extend Findable::ClassMethods
+end
